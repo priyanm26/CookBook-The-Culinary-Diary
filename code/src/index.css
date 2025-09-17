@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-purple: #8A2BE2; /* A vibrant purple */
+  --dark-purple: #4B0082;   /* A deeper purple for accents */
+  --primary-green: #1DB954; /* Darker Green Accent */
+  --background-dark: #121212; /* Main background color */
+  --background-light: #1E1E1E; /* A slightly lighter black for cards/sections */
+  --text-primary: #FFFFFF;    /* White text */
+  --text-secondary: #e0e0e0; /* Light Gray text for less important info */
+  --text-dark: #121212;      /* Black text for light backgrounds */
+}
+
+html {
+  scroll-behavior: smooth; /* This enables smooth scrolling */
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-dark);
+  color: var(--text-primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

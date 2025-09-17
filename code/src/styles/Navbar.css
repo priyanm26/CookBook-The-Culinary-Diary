@@ -1,0 +1,83 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--background-light);
+    box-shadow: rgba(138, 43, 226, 0.1) 0px 4px 12px;
+}
+
+.Navbar h3{
+    padding-left: 4vw;
+    font-family: 'Montserrat', sans-serif; /* Changed font */
+    font-size: 2rem; /* Adjusted font size */
+    font-weight: 700; /* Bold */
+    color: var(--text-primary); /* Changed to white */
+    cursor: pointer;
+}
+
+.Navbar .nav-options{
+    display: flex;
+    align-items: center;
+    padding-right: 3vw;
+    gap: 30px;
+}
+
+.Navbar ul{
+    display: flex;
+    gap: 30px;
+}
+
+.Navbar a{
+    text-decoration: none;
+}
+.Navbar ul li{
+    list-style: none;
+    cursor: pointer;
+    color: var(--text-primary);
+}
+
+.Navbar ul li:hover{
+    color: var(--primary-purple);
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #3f3f3faf;
+    padding: 3px;
+    border-radius: 2rem;
+}
+
+.nav-search span{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-icon{
+    color: var(--text-secondary);
+    padding-left: 5px;
+}
+
+.nav-search span input{
+    border: none;
+    background: transparent;
+    color: var(--text-primary);
+}
+
+.nav-search span input:focus{
+    outline: none;
+}
+
+.nav-search button{
+    border-radius: 2rem;
+    padding: 0 10px;
+    border: none;
+    background-color: var(--primary-purple);
+    color: var(--text-primary);
+    height: 4vh;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.footer{
+    background-color: var(--background-light);
+    padding: 5vh 2vw 0 2vw;
+}
+
+.footer h3{
+    font-family: 'Montserrat', sans-serif; /* Changed font */
+    font-size: 2rem; /* Adjusted font size */
+    font-weight: 700; /* Bold */
+    color: var(--text-primary); /* Changed to white */
+    margin: 0;
+    padding-left: 2vw;
+}
+
+.footer hr{
+    border-color: var(--primary-purple);
+}
+
+.footer-options {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-options ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-options ul li{
+    list-style: none;
+    cursor: pointer;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.footer-options ul li:hover{
+    color: var(--text-primary);
+}
+
+.footer p{
+    margin: 0;
+    text-align: center;
+    padding: 2vh 0;
+    color: var(--text-secondary);
+}
